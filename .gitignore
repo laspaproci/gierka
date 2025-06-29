@@ -100,3 +100,6 @@ InitTestScene*.unity*
 git add .gitignore ProjectSettings/ProjectVersion.txt
 git commit -m "Fix .gitignore and track ProjectVersion.txt"
 !/ProjectSettings/ProjectVersion.txt
+
+# Track Unity’s ProjectVersion so CI/buildy wiedzą jaką wersję silnika użyć
+!/ProjectSettings/ProjectVersion.txt
